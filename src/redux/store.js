@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import AuthenticationReducer from './authenticationSlice';
 import SideBarReducer from './sideBarSlice';
 import PatientsReducer from './patientsSlice';
 import MedicalRecodsReducer from './medicalRecords';
+import AuthenticationReducer from './authenticationSlice';
 
 const store = configureStore({
   reducer: {
